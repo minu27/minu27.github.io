@@ -3,7 +3,7 @@ const path = require('path');
 let ContactModel = require('../models/contact.model')
 
 exports.get_landing = function(req, res, next) {
-    res.sendFile('index.html', { root: 'views' });
+    res.sendFile('index.html', { root: '.' });
 }
 
 
